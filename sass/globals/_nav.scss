@@ -1,0 +1,44 @@
+nav{
+    background:$myGray;
+    display: flex;
+    flex: 3;
+    align-items: center;
+    position: sticky ;
+    top: 0;
+}
+.nav-left, .nav-center, .nav-right{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+   
+}
+.nav-left{
+    font-family: $myFont;
+    span{
+        color: $background;
+    }
+    img{
+        margin-top: 5px;
+        height: 50px;
+
+    }
+}
+ul{
+    display: flex;
+    li{
+        list-style: none;
+        a{
+            padding: 15px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            
+        }
+    }
+}
+a:hover{
+    background:$background ;
+    color: white;
+    border-radius: $border-radius;
+}
+

@@ -1,0 +1,47 @@
+.content-top, .content-buttom{
+    justify-content: center;
+    display: flex;
+}
+.content-top{
+    margin-top: 50px;
+    input{
+        padding: 15px;
+        width: 50%;
+        border: 2px solid $background;
+        border-radius: $border-radius 0px 0px $border-radius;
+        outline: $background;
+    }
+    span{
+        background:$background ;
+        padding: 15px;
+        color: white;
+        border-radius: 0px $border-radius $border-radius 0px;
+        color: white;
+        font-family: $myFont;
+    }
+    
+}
+.content-buttom{
+    margin-top: 30px;
+    
+    :hover{
+        background:$myGray;
+        color: black;
+    } 
+    span{
+    background:$background ;
+    padding:15px 30px 15px 30px;
+    margin: 25px;
+    font-family: $myFont; 
+    border-radius: $border-radius; 
+     
+   }
+    a{
+       text-decoration: none;   
+       color: white;
+    }
+}
+
+   
+    
+

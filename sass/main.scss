@@ -1,0 +1,17 @@
+@import"globals/variable";
+@import "globals/nav";
+@import"components/content";
+@import"components/title";
+@import"globals/card";
+@import"globals/footer";
+@import"components/button";
+@import"components/table";
+@import"components/dialog";
+@import"components/login";
+@import"components/detail";
+@import"components/cart";
+
+body{
+    margin: 0;
+    padding: 0;
+}
